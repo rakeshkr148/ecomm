@@ -2,13 +2,13 @@
     text-align: center;
 }
 .cart-wrapper{
-    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
     width: 500px;
     border: 1px solid #ccc;
     margin-left: 10%;
 }
 .item{
-    float: left;
     display: inline-block;
     width: 120px;
     padding: 20px;
@@ -20,12 +20,10 @@
     right: 1%;
     top: 1%;
 }
-
 .cart-wrapper img {
     width: 50px;
 }
 .cart-count{
-  
     position: absolute;
     right: 10px;
     top: 12px;
